@@ -1,0 +1,13 @@
+ext {
+    subProjectNames = [
+            ':concurrency-utils'
+    ]
+    compileClassPaths = [
+            'commons-io:commons-io:2.16.1'
+    ]
+    compileJarFilePaths = []
+    testCompileClassPaths = []
+    testCompileJarFilePaths = []
+}
+
+apply from: gradle.ext.rootDirPath + '/common_build.gradle'
